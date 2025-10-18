@@ -133,12 +133,6 @@ Open your browser and navigate to `http://localhost:3000`
 - `POST /api/chat` - Proxy to backend chat endpoint
 - `POST /api/hello-world` - Proxy to backend hello-world endpoint
 
-## 🧪 Testing the Application
-
-1. **Hello World Test**: The app automatically loads a creative "Hello World" message
-2. **Chat Test**: Send a simple message like "Hello, how are you?"
-3. **Quick Actions Test**: Click any of the action buttons to see pre-filled prompts
-4. **Error Handling**: Try sending a message with the backend stopped to test error handling
 
 ## 🎨 UI Features
 
@@ -153,14 +147,11 @@ Open your browser and navigate to `http://localhost:3000`
 
 ### Challenges Faced
 
-1. **API Integration Complexity**: Understanding OpenAI's API structure and handling different response formats
-2. **CORS Configuration**: Setting up proper cross-origin resource sharing between frontend and backend
-3. **Error Handling**: Implementing comprehensive error handling for various failure scenarios
-4. **UI/UX Design**: Creating a modern, responsive interface that works across devices
+1. **API Integration Complexity**: Understanding OpenAI's API structure and managing different response formats proved challenging. I experimented with APIs from Anthropic, Groq, and OpenAI, each with slight variations in their implementation. Ultimately, I found OpenAI's API the most easy due to my prior familiarity with it.
 
 ### Key Learnings
 
-1. **API Design**: Learned how to design RESTful APIs with proper error handling and response formats
-2. **Full-Stack Communication**: Understanding how frontend and backend communicate through HTTP requests
-3. **Modern Web Development**: Gained experience with FastAPI, modern CSS, and responsive design
-4. **AI Integration**: Understanding how to integrate generative AI into practical applications
+1. **API Design**:  Gained hands-on experience designing RESTful APIs with robust error handling and well-structured response formats.
+2. **UI/UX Design**: Discovered an effective approach to creating polished user interfaces—rather than relying solely on text prompts, I provided AI with mockup images from Dribbble or Figma. This visual context significantly improved the quality of generated interfaces.
+3. **AI Integration**: Developed a solid understanding of how to seamlessly integrate generative AI into full-stack applications, which will be invaluable for our project, ChoreMate.
+4. **Idea for ChoreMate**: This assignment helped crystallize the initial design and overall vision for ChoreMate. Browsing through Dribbble and Figma for mockup inspiration gave me a clearer picture of what our final project could become.
